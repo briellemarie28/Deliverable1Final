@@ -1,16 +1,181 @@
-* {
-    font-family: Fira Sans;  
-    background-color #F0ECEE;  
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,300,300italic,400italic,500,500italic,700,700italic);
+
+body{
+    font-family: 'Fira-Sans', sans-serif;
+    background-color: #F0ECEE;
+    background-size: cover;
+}
+
+h1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight:600;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: stretch;
+    flex-direction: column;  
+    text-decoration: none;
+    color: #88898B;
+    font-weight: 400;
+    width: auto;
+    padding: 2px;
+}
+a:hover{
+   color: #FF4850;
+}
+.contact:hover{
+    background-color: #CCC;
+}
+.info:hover{
+    background-color:#CCC;
+}
+    
+a:link{
+    color: #88898B;
+}
+
+.article{
+    display: flex;
+    justify-content: bottom;
+  }  
+
+p{
+    color: #88898B;
+    font-weight: 300;  
+}
+.red{
+    color: #FF4850;
+}
+.info{
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    background-color: #FF4850;
+    padding: 10px;
+    border-radius: 15px;
+    width: 100%;
+    border: none;
+    color: #F0ECEE;
+    font-weight: 400;
+}
+.contact{
+    text-decoration: none;
+    display: inline-block;
+    align-items: center;
+    background-color: #FF4850;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: none;
+    color: #F0ECEE;  
+    font-weight: 400;
+}
+
+
+
+
+@media only screen and (min-width: 768px)
+  {@import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,300,300italic,400italic,500,500italic,700,700italic);
+
+    body{
+        font-family: 'Fira-Sans', sans-serif;
+        background-image: URL(bulldog\ \(1\).jpg);
+        background-color: #F0ECEE;
+        background-size: cover;
+        
+    
+    }
+    head{
+        width: 100%;
+    }
+    h1{
+       
+        float: left;
+        margin-left: 50px;
+        font-weight:600;
     }
     
-menu {
-    font-weight: 400
+    h2{
+        font-weight: 600;
     }
-
-h1 {
-   font-weight: 600
-   }
-
-p {
-  font-weight: 300
+   ul{
+        list-style-type: none;
+        padding: 15px;
+        
+        flex-flow: wrap;
+        justify-content: flex-end;
+        flex-direction: row;
+        justify-content: space-between;
+        text-decoration: none;
+        color: #88898B;
+        font-weight: 400;
+        max-width: 500px; 
+        margin: auto;  
+    } 
+ 
+    li{    
+        padding: 10px;
+        display: inline-block;
+       
+    }
+  
+    a:hover{
+        color: #FF4850;
+    }
+    .contact:hover{
+        background-color: #CCC;
+    }
+    .info:hover{
+        background-color:#CCC;
+    }
+        
+    a:link{
+        color: #88898B;
+    } 
+    
+    .article{
+        position: relative;
+        display: flex;
+        justify-content: center;
+      }  
+      .main{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        max-width: 500px;
+        margin: auto;
+        padding: 50px;
+    } 
+    p{
+        color: #88898B;
+        font-weight: 300;
+    }
+    .red{
+        color: #FF4850;
+    }
+    .info{
+        text-decoration: none;
+        display: inline-block;
+        text-align: center;
+        background-color: #FF4850;
+        padding: 10px;
+        border-radius: 15px;
+        width: auto;
+        border: none;
+        color: #F0ECEE;
+    }
+    .contact{
+        text-decoration: none;
+        display: inline-block;
+        /*align-items: center;*/
+        background-color: #FF4850;
+        padding: 10px;
+        border-radius: 15px;
+        width: auto;
+        border: none;
+        color: #F0ECEE;  
   }
